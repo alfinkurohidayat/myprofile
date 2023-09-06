@@ -1,0 +1,59 @@
+#resume{
+    padding-top: 50px;
+    background-color: white;
+
+}
+
+#resume .h3{
+    margin-left: 20%;
+    margin-bottom: 5%;
+}
+
+#resume h3::before{
+    content: 'My ';
+    color: red;
+}
+
+.one{
+    background-color: #fff;
+    outline: 1px solid rgb(114, 112, 112);
+    height: 100%;
+  }
+
+.skill{
+    margin-top: -5%;
+}
+
+  progress {
+    width: 200px;
+    height: 7px;
+    border: 0.5px solid gray; 
+ }
+ progress::-webkit-progress-bar {
+    background-color: white;
+ }
+ progress::-webkit-progress-value {
+    background-color: #dc3545;
+ }
+
+
+
+ .end{
+    height: auto;
+    padding: 4%;
+ }
+
+.sat{
+    line-height: 10px;
+}
+
+.at{
+    padding: 30px;
+}
+
+.dv{
+    width: 80px;
+    height: 2px;
+    transform: rotate(90deg);
+   margin: -30px;
+}
